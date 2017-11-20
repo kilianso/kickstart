@@ -90,7 +90,7 @@ var options = {
 
 	svgSprite: {
 		src: source + '/svgsprite/**/*.svg',
-		svgDest: source + '/handlebars/Partials/svg-sprite.svg',
+		svgDest: destination + '/img/svg-sprite.svg',
 		sassDest: source + '/sass/core/svg-sprite.scss',
 		htmlDest: destination + '/svg-sprite.html',
 		namespaceClassnames: false
