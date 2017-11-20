@@ -1,0 +1,32 @@
+// Use SASS here to generate all the needed border, text and background classes
+$c_colors: (
+'white'	        :	$white,
+'black'					:	$black
+);
+
+@each $color_name, $color_value in $c_colors {
+  .#{$color_name}-bg {
+    background-color: $color_value !important;
+  }
+  .#{$color_name}-text {
+    color: $color_value !important;
+  }
+  .#{$color_name}-border {
+    border: 1px solid $color_value;
+  }
+  .#{$color_name}-border-top {
+    border-top: 1px solid $color_value;
+  }
+  .#{$color_name}-border-right {
+    border-right: 1px solid $color_value;
+  }
+  .#{$color_name}-border-bottom {
+    border-bottom: 1px solid $color_value;
+  }
+  .#{$color_name}-border-left {
+    border-left: 1px solid $color_value;
+  }
+  .#{$color-name}-stroke {
+    stroke: $color_value;
+  }
+}

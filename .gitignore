@@ -1,0 +1,15 @@
+# Third party modules
+node_modules
+bower_components
+
+# Project files
+*.sublime-project
+*.sublime-workspace
+*.lnk
+.vscode
+
+# Built assets
+dist
+Assets
+svg-sprite.scss
+svg-sprite.svg
