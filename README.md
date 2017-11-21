@@ -18,12 +18,12 @@ Kickstart - Buildsystem and Boilerplate for Frontend Development
 
     Your development files are stored at `/source`. The built assets will be stored at `/dist` by default.
 
-4. Run `gulp` to start developing:
+4. Run `gulp` to start developing (equal to `npm run gulp`):
   ```bash
     gulp
   ```
 
- 5. Run `gulp stage` to bundle, minify etc. everything in a build:
+ 5. Run `gulp stage` to bundle, minify etc. everything in a build (equal to `npm run build --production`):
   ```bash
     gulp stage
   ```

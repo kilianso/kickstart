@@ -1,3 +1,3 @@
-//import your stuff like this
+// import your stuff like this
 
-// import './test.js'
+import './components/index.js'
