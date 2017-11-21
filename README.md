@@ -11,14 +11,19 @@ Kickstart - Buildsystem and Boilerplate for Frontend Development
 
 2.  Now's the time to set your options. You can find them under `gulp/options.js`. Be sure to set `destination` and `webroot` variables to your liking, these are the most important.
 
-3. Run `gulp` to start developing:
+3. Run `gulp stage` to build the dist folder initially:
+  ```bash
+    gulp stage
+  ```
+
+    Your development files are stored at `/source`. The built assets will be stored at `/dist` by default.
+
+4. Run `gulp` to start developing:
   ```bash
     gulp
   ```
 
-  Your development files are stored at `/src`. The built assets will be stored at `/dist` and `/dist_hbs` by default.
-
- 4. Run `gulp stage` to bundle, minify etc. everything in a build:
+ 5. Run `gulp stage` to bundle, minify etc. everything in a build:
   ```bash
     gulp stage
   ```
@@ -48,9 +53,6 @@ Useful structures, markup, mixins, functions and more needed in almost every pro
   - minified
   - CommonJS
   - Add `--production` flag for minified JS
-- `gulp handlebars` / `npm run handlebars`
-  - Uses [Handlebars Layouts](https://github.com/shannonmoeller/handlebars-layouts) so you can use a master layout file, partials and pages
-  - Pass in data as JSON
 - `gulp pug` / `npm run pug`
   - [Pug to HTML](https://github.com/pugjs/gulp-pug)
 - `gulp svg-sprite` / `npm run svg-sprite`
